@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Carnaval</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="mascara" src="img/mascara.webp" alt="Logo">  
+        <nav menu="menu">
+          <a href="index.html">Origem do Carnaval</a>
+          <a href="blocosfamosos.html">Blocos mais Famosos de Florianópolis</a>
+          <a href="blocosBrasil.html">Blocos mais famosos do Brasil</a>
+        </nav>
+      </header>
+
+    <div class="background">
+      <main class="conteudo">
+          <section class="conteudo-principal">
+              <div class="congtainer">
+                  <h1 class="titulo"><strong>Origem Do Carnaval</strong></h1>
+                  <p> O Carnaval chegou ao Brasil, durante o período colonial, caracterizado
+                      por diversas brincadeiras, como o entrudo.<br> Ao longo do século XX, uma
+                      série de ritmos e danças passaram a fazer parte do Carnaval brasileiro. </p> 
+                  <h2><strong>Verdadeiro significado do Carnaval</strong></h2>
+                  <p>A palavra Carnaval é originária do latim, carnis levale, cujo significado é “retirar a carne”.
+                      Esse sentido está relacionado ao jejum que deveria ser realizado durante <br> a Quaresma e também
+                      ao controle dos prazeres mundanos. Isso demonstra uma tentativa da Igreja Católica de controlar
+                      os desejos dos fiéis.</p>
+                  <h3><strong>O que é Quaresma?</strong></h3>
+                  <p>A Quaresma é uma tradição do cristianismo que se inicia com o término do Carnaval e é marcada por práticas de penitência, como o jejum e obras de caridade. A Quaresma é como conhecemos o período de preparação da Páscoa que é 
+                     marcado por práticas de penitência, como
+                     jejuns e obras de caridade.</p>
+                      <button><a href="#">FELIZ CARNAVAL!!!</a></button>
+  
+              </div>
+              
+          </section>
+  
+          <section>
+  
+          </section>
+      </main>
+
+    </div>
+
+
+    <script src="confetti.js"></script>
+    <!-- Confetti  JS-->
+    <script>
+
+        // start
+
+        const start = () => {
+            setTimeout(function() {
+                confetti.start()
+            }, 1000); // 1000 is time that after 1 second start the confetti ( 1000 = 1 sec)
+        };
+
+        //  Stop
+
+        const stop = () => {
+            setTimeout(function() {
+                confetti.stop()
+            }, 5000); // 5000 is time that after 5 second stop the confetti ( 5000 = 5 sec)
+        };
+
+        start();
+        stop();
+    </script>
+</body>
+</html>
